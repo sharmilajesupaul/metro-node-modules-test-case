@@ -1,0 +1,17 @@
+{
+  "name": "metro-node-modules-test-case",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sharmila Jesupaul <sharmila.jesupaul@airbnb.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "nodePathExample": "NODE_PATH='../custom_node_modules' node index.js",
+    "metroBuild": "yarn run metro build index.js --out index.build.js --config metro.config.js",
+    "metroBuildExample": "yarn run metroBuild && node index.build.js"
+  },
+  "devDependencies": {
+    "metro": "^0.66.2",
+    "metro-core": "^0.66.2"
+  }
+}
