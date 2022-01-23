@@ -1,4 +1,7 @@
-# Metro doesn't respect transitive NPM packages dependencies in nodeModulesPaths directories
+# UPDATE: Fixed in https://github.com/facebook/metro/commit/9bbe219809c2bdfdb949e825817e2522e099ff9f
+
+
+## Metro doesn't respect transitive NPM packages dependencies in nodeModulesPaths directories
 
 ## Explanation
 
